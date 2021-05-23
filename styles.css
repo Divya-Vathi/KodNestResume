@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    line-height: 2.0;
+    font-size: 1rem;
+}
+.container{
+    width:80%;
+    margin:auto;
+    border-top:10px solid rgb(247, 230, 169);
+    border-bottom:10px solid rgb(247, 230, 169);
+    padding-left: 4px;
+    padding-top: 20px;
+    background-color:cornsilk;
+}
+.main-section{
+    width:100%;
+    display: flex;;
+}
+.listing-order{
+    list-style: none;
+}
+.aboutself{
+    width:70%;
+    padding: 40px;
+    font-weight: bold;
+}
+.passport{
+    width: 30%;
+}
+.img-adjust{
+    width: 80%;
+    height: 180px;
+    min-width: 112px;
+}
+.selector{
+    padding: 5px;
+}
+.table-part{
+    justify-content: center;
+    display: flex;
+}
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr th{
+    padding: 0px 10px 0px 10px;
+}
+tr td{
+    text-align: center;
+}
+th{
+    width:25%;
+    background-color: rgb(218, 218, 218);
+}
+.skills{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.LANG{
+    display: flex;
+    width:90%;
+}
+.LANG div:first-child{
+    width:40%;
+    padding-left: 20px;
+    text-align: center;
+}
+.LANG div:last-child{
+    width:60%;
+}
+.progressbar{
+    width:95%;
+}
+.personal-details{
+    width:70%;
+    margin: auto;
+}
+.detail{
+    display:flex;
+}
+.detail div:first-child{
+    width:30%;
+}
+.detail div:last-child{
+    width:70%;
+}
+.header:hover{
+    height:15%;
+    width:25%;
+    background-color: rgb(247, 230, 169);
+    text-align: center;
+    margin: auto;
+}
+.paragraphs{
+    /* padding-left: 5%; */
+    padding: 0 1% 0 5%;
+}
